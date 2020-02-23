@@ -37,44 +37,17 @@
 	height: 55.55555555555556vw;
 	margin: auto;
 	flex-wrap: nowrap;
+  /*display: block;*/
 	/*background-color: #cccccc*/
 }
 @media screen and (max-width: 600px) {
   .divwork {
-  width: 225px;
-  margin: auto;}
-}
-.divabout{
-	/*width: 953px;*/
-  width: 66.18vw;
-	height: 39.72222222222222vw;
-	margin: auto;
-	border: 1px solid;
-	border-color: #61A5D7;
-  padding: 0.6944444444444444vw;
-  border-radius: 1.7361111111111112vw;
-  display: flex;
-	flex-wrap: nowrap;
-	/*background-color: #cccccc*/
-}
-.divcontact{
-  /*width: 953px;*/
-  width: 66.18vw;
-  /*height: 2.7777777777777777vw;*/
+  width: 257px;
+  height: 1850px;
   margin: auto;
-  flex-wrap: nowrap;
   /*background-color: #cccccc*/
+  }
 }
-
-/*.div2{
-	width: 1000px;
-	margin: auto;
-	background-color: #cccccc
-}*/
-
-/*.btw-section{
-	margin-top: 160px;
-}*/
 
 .h1-1{
 	font-family: "HelveticaNeue-CondensedBold";
@@ -153,11 +126,11 @@ button{
     /*display: inline-block;*/
     height: 15vw;
     width: 20.833333333333332vw;
-    padding: 0;
+    padding: 0px;
     /*margin-left: 19px;*/
     /*margin-right: 19px;*/
     /*margin-bottom:126px;*/
-    border: 0;
+    border: 0px;
     border-radius: 0.7638888888888888vw;
     vertical-align: top;  
     cursor: pointer; 
@@ -166,11 +139,12 @@ button{
   .button {
     height: 184px;
     width: 255px;
+    /*max-width: 255px;*/
     border-radius: 11px;
   }
 }
 .mfp img {
-    /*display: block;*/
+    display: block;
     height: 15vw;  
     width: 20.833333333333332vw;
 }
@@ -178,6 +152,7 @@ button{
   .mfp img {
     height: 184px;
     width: 255px;
+    max-width: 255px;
   }
 }
 #sh img {
@@ -222,10 +197,9 @@ button{
 #ep img {
     display: block;
     vertical-align: center;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
     height: 15vw;  
-    width: 20.833333333333332vw;
-    
+    width: 20.833333333333332vw; 
 }
 @media screen and (max-width: 600px) {
   #ep img {
@@ -233,27 +207,8 @@ button{
     width: 255px;
   }
 }
-#profile img {
-    display: block;
-    vertical-align: center;
-    background-color: #ffffff;
-    height: 20vw;  
-    width: 15.13888888888889vw;
-    
-}
-/*@media screen and (max-width: 600px) {
-  #profile img {
-    height: 184px;
-    width: 255px;
-  }
-}*/
-.picbutton{
-	height: 20vw;  
-    width: 15.13888888888889vw;
-    /*come back to this */
-    /*padding-left: 50px; */
-    vertical-align: center;
-}
+
+
 
 .label{
 	font-family: "HelveticaNeue-Bold";
@@ -293,7 +248,7 @@ button{
  }
  @media screen and (max-width: 600px) {
   .column1 {
-    width: 100%;
+    width: 225px;
     height: 288px;
   }
 }
@@ -303,38 +258,62 @@ button{
   display: table;
   clear: both;
 }
-/* .column2 {
-  float: left;
-  width: 33.33%;
-  height: 23.75vw;
-  background-color: #fffaaa;
- }
- .column3 {
-  float: left;
-  width: 33.33%;
-  height: 23.75vw;
-  background-color: #fffccc;
- }*/
- 
- .P{
- 	margin-left: 0.5555555555555556vw;
- }
- .aboutmediv{
+/*---------------------------------------------------*/
+/*ABOUT ME CSS*/
+
+ /*.aboutmediv{
  	 width: 43.81944444444444vw;
+ }
+  @media screen and (max-width: 600px) {
+  .aboutmediv {
+    height: 288px;
+  }
+}*/
+.divaboutouter{
+  
+  width: 66.18vw;
+  height: 39.72222222222222vw;
+  margin: auto;
+  border: 1px solid;
+  border-color: #61A5D7;
+  padding: 0.6944444444444444vw;
+  border-radius: 1.7361111111111112vw;
+  /*display: flex;*/
+  flex-wrap: nowrap;
+  
+}
+@media screen and (max-width: 600px) {
+  .divaboutouter {
+  width: 257px;
+  height: 1400px;
+  
+  }
+} 
+ .P{
+  margin-left: 0.5555555555555556vw;
  }
  .aboutme{
  	font-family: "HelveticaNeue-Bold";
- 	padding-top: 2.638888888888889vw;
+ 	/*padding-top: 2.638888888888889vw;*/
+  padding-top: 0.1vw;
  	padding-left:2.638888888888889vw;
  	line-height: 1.8055555555555556vw;
  	letter-spacing: -0.33px;
  	text-align: left;
  	color: #2D363D;	
 	font-size: 1.3888888888888888vw;
-	
  }
+  @media screen and (max-width: 600px) {
+  .aboutme {
+  padding-top: 38px;
+  
+  line-height: 26px;
+  letter-spacing: -0.26px;
+  font-size: 14px;
+  }
+}
 
- .aboutme2{
+ .aboutme1{
  	font-family: "HelveticaNeue";
  	text-align: left;
  	padding-left:2.638888888888889vw;
@@ -342,41 +321,146 @@ button{
  	letter-spacing: -0.33px;
  	color: #83919C;	
 	font-size: 1.3888888888888888vw;
-	
  }
+  @media screen and (max-width: 600px) {
+  .aboutme1 {
+  padding-top: 37.97361111111111px;
+  
+  line-height: 26px;
+  letter-spacing: -0.26px;
+  font-size: 14px;
+  }
+}
+
  p span 
 {
     display: block;
 }
 
 .column1about{
-	width: 29%;
-	vertical-align: right;
-	padding-top: 2.638888888888889vw;
-	/*background-color: #ccfccc;*/
-	float: right;
-}
-.column2about{
+  display:inline-block;
+  float: left;
 	width: 71%;
-	/*background-color: #cccccc;*/
+	/*vertical-align: right;*/
+	padding-top: 2.638888888888889vw;
+	
+	/*float: right;
+  float: left;*/
 }
+@media screen and (max-width: 600px) {
+  .column1about {
+  /*vertical-align: left;*/
+  width: 90%;
+  }
+}
+
+.column2about{
+  display:inline-block;
+  float:left;
+	width: 29%;
+	}
+ @media screen and (max-width: 600px) {
+  .column2about {
+  /*vertical-align: left;*/
+  width: 100%;
+  }
+}
+#profile img {
+    display: block;
+    vertical-align: center;
+    background-color: #ffffff;
+    height: 20vw;  
+    width: 15.13888888888889vw;
+    
+}
+@media screen and (max-width: 600px) {
+  #profile img {
+    height: 288px;
+    width: 218px;
+  }
+}
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.picbutton{
+  height: 20vw;  
+  width: 15.13888888888889vw;
+  margin-top: 2.638888888888889vw;
+    /*come back to this */
+    /*padding-left: 50px; */
+    /*vertical-align: center;*/
+    
+
+}
+@media screen and (max-width: 600px) {
+  .picbutton {
+    height: 288px;
+    width: 218px;
+    margin-top: 38px;
+  }
+}
+
+.divabout2{
+  width: 66.18vw;
+  margin: auto;
+  flex-wrap: nowrap;
+  display: block;
+  }
+ @media screen and (max-width: 600px) {
+  .divabout2 {
+  width: 257px;
+  }
+} 
+
+
 /*---------------------------------------------------*/
 
 /*---------------------------------------------------*/
 /*CONTACT CSS*/
 
+.divcontact{
+  width: 66.18vw;
+  /*margin-bottom: 30px;*/
+  margin: auto;
+  flex-wrap: nowrap;
+}
+@media screen and (max-width: 600px) {
+  .divcontact {
+  width: 257px;
+  /*margin-bottom: 30px;*/
+  height: 635px;
+  }
+} 
+
 .contactbutton{
-  background-image: linear-gradient(-45deg, #AD9DED, #61A5D7);
+  /*background-image: linear-gradient(-45deg, #AD9DED, #61A5D7);*/
+  background-color: #cccccc;
   width:32.22222222222222vw;
   height:7.638888888888889vw;
   margin-bottom: 1.25vw;
+  border-radius: 0.7638888888888888vw;
   /*margin-right: 17px;*/
   /*display: flex;*/
+  border: 1px solid #61A5D7;
+  /*border-color: #AD9DED;*/
+  transition-duration: 0.4s;
 }
-/*.onethree{
-  margin-right: 1.1805555555555556vw;
-}*/
+@media screen and (max-width: 600px) {
+  .contactbutton {
+  width:256px;
+  height:110px;
+  margin-top: 16px;
+  border-radius: 11px;
 
+  }
+} 
+.contactbutton:hover{
+  background-image: linear-gradient(-45deg, #AD9DED, #61A5D7);
+  /*background-color: #cccaaa;*/
+  /*transition: .5s ease;*/
+}
 .buttontext-h2{
   font-family: "HelveticaNeue-Bold";
   color: #FFFFFF;
@@ -384,6 +468,12 @@ button{
   margin-left: 2.638888888888889vw;
   text-align: left;
 }
+@media screen and (max-width: 600px) {
+  .buttontext-h2 {
+  font-size: 30px;
+  margin-left: 38px;
+  }
+} 
 
 .buttontext-h3{
   font-family: "HelveticaNeue-Bold";
@@ -393,24 +483,17 @@ button{
   margin-left: 2.638888888888889vw;
   text-align: left;
 }
+@media screen and (max-width: 600px) {
+  .buttontext-h3 {
+  font-size: 14px;
+  margin-left: 38px;
+  }
+} 
 
 /*---------------------------------------------------*/
 
 /*---------------------------------------------------*/
 /*ADAPTIVE CSS*/
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
-
 .container {
   /*background-color: #cccaaa;*/
   position: relative;
@@ -425,10 +508,10 @@ button{
   right: 0;
   height: 100%;
   width: 100%;
-  /*box-shadow: 5px 10px 18px #000000;*/
+  
   opacity: 0;
   transition: .5s ease;
-  /*background-color: #008CBA;*/
+ 
 }
 
 .shadow{
