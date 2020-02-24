@@ -34,7 +34,7 @@
 .divwork{
 	/*width: 953px;*/
   width: 66.18vw;
-	height: 55.55555555555556vw;
+	/*height: 55.55555555555556vw;*/
 	margin: auto;
 	flex-wrap: nowrap;
   /*display: block;*/
@@ -43,7 +43,7 @@
 @media screen and (max-width: 600px) {
   .divwork {
   width: 257px;
-  height: 1850px;
+  /*height: 1850px;*/
   margin: auto;
   /*background-color: #cccccc*/
   }
@@ -272,7 +272,8 @@ button{
 .divaboutouter{
   
   width: 66.18vw;
-  height: 39.72222222222222vw;
+  /*height: 39.72222222222222vw;*/
+  height: 30.993745656706047vw;
   margin: auto;
   border: 1px solid;
   border-color: #61A5D7;
@@ -285,7 +286,7 @@ button{
 @media screen and (max-width: 600px) {
   .divaboutouter {
   width: 257px;
-  height: 1400px;
+  height: 1150px;
   
   }
 } 
@@ -305,7 +306,7 @@ button{
  }
   @media screen and (max-width: 600px) {
   .aboutme {
-  padding-top: 38px;
+  padding-top: 16px;
   
   line-height: 26px;
   letter-spacing: -0.26px;
@@ -436,7 +437,7 @@ button{
 
 .contactbutton{
   /*background-image: linear-gradient(-45deg, #AD9DED, #61A5D7);*/
-  background-color: #cccccc;
+  background-color: #ffffff;
   width:32.22222222222222vw;
   height:7.638888888888889vw;
   margin-bottom: 1.25vw;
@@ -444,9 +445,18 @@ button{
   /*margin-right: 17px;*/
   /*display: flex;*/
   border: 1px solid #61A5D7;
+  /*position: absolute;*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
   /*border-color: #AD9DED;*/
-  transition-duration: 0.4s;
+  -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
 }
+
 @media screen and (max-width: 600px) {
   .contactbutton {
   width:256px;
@@ -456,14 +466,14 @@ button{
 
   }
 } 
-.contactbutton:hover{
+/*.contactbutton:hover{
   background-image: linear-gradient(-45deg, #AD9DED, #61A5D7);
-  /*background-color: #cccaaa;*/
-  /*transition: .5s ease;*/
-}
+  
+}*/
+
 .buttontext-h2{
-  font-family: "HelveticaNeue-Bold";
-  color: #FFFFFF;
+  font-family: "HelveticaNeue-Light";
+  color: #2D363D;
   font-size: 2.0833333333333335vw;
   margin-left: 2.638888888888889vw;
   text-align: left;
@@ -474,10 +484,13 @@ button{
   margin-left: 38px;
   }
 } 
+/*.buttontext-h2:hover{
+  color: #ffffff;
+}*/
 
 .buttontext-h3{
-  font-family: "HelveticaNeue-Bold";
-  color: #FFFFFF;
+  font-family: "HelveticaNeue-Light";
+  color: #2D363D;
   font-size: 0.9722222222222222vw;
   margin-top: 0.2777777777777778vw;
   margin-left: 2.638888888888889vw;
@@ -510,12 +523,13 @@ button{
   width: 100%;
   
   opacity: 0;
-  transition: .5s ease;
+  /*transition: .5s ease;*/
  
 }
 
 .shadow{
-  box-shadow: -11px 9px 21px #ABB4D8;
+  /*box-shadow: -11px 9px 21px #ABB4D8;*/
+  /*box-shadow:  -1.4986376021798364vw 1.2261580381471389vw 2.861035422343324vw #ECEEF6;*/
 }
 
 .container:hover .overlay {
