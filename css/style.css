@@ -103,6 +103,14 @@
 
 /*---------------------------------------------------*/
 /*WORK CSS*/
+.dontshow{
+
+}
+@media screen and (max-width: 600px) {
+  .dontshow {
+    display: none;
+  }
+}
 
 .h2-1{
   font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
@@ -510,7 +518,6 @@ button{
 .container {
   /*background-color: #cccaaa;*/
   position: relative;
- 
 }
 
 .overlay {
@@ -521,11 +528,15 @@ button{
   right: 0;
   height: 100%;
   width: 100%;
-  
   opacity: 0;
   /*transition: .5s ease;*/
- 
 }
+
+@media screen and (max-width: 600px) {
+  .overlay {
+  display: none;
+  }
+} 
 
 .shadow{
   /*box-shadow: -11px 9px 21px #ABB4D8;*/
